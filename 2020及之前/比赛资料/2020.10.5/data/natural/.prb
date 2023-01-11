@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem maker="ccr-plus" type="TRA_0_4">
+    <source file="natural" code="100" dir="natural">
+        <language cmd="gcc -o natural natural.c -lm -static -static -static -static -static -static" file="natural.c" time="10"/>
+        <language cmd="g++ -o natural natural.cpp -lm -static -static -static -static -static -static" file="natural.cpp" time="10"/>
+        <language cmd="fpc natural.pas" file="natural.pas" time="10"/>
+    </source>
+    <task output="natural.out" time="10" input="natural.in" checker="checker">
+        <subtask score="100">
+            <point time="5" mem="128" out="natural.out" in="natural.in"/>
+        </subtask>
+    </task>
+</problem>

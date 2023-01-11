@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem maker="ccr-plus" type="TRA_0_4">
+    <source file="animal" code="100" dir="animal">
+        <language cmd="gcc -o animal animal.c -lm -static -static -static" file="animal.c" time="10"/>
+        <language cmd="g++ -o animal animal.cpp -lm -static -static -static" file="animal.cpp" time="10"/>
+        <language cmd="fpc animal.pas" file="animal.pas" time="10"/>
+    </source>
+    <task output="animal.out" time="10" input="animal.in" checker="fulltext">
+        <subtask score="10">
+            <point time="1" mem="128" out="animal1.out" in="animal1.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="animal2.out" in="animal2.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="animal3.out" in="animal3.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="animal4.out" in="animal4.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="animal5.out" in="animal5.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="animal6.out" in="animal6.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="animal7.out" in="animal7.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="animal8.out" in="animal8.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="animal9.out" in="animal9.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="animal10.out" in="animal10.in"/>
+        </subtask>
+    </task>
+</problem>

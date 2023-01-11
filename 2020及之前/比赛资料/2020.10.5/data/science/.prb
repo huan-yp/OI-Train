@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem type="TRA_0_4" maker="ccr-plus">
+    <source code="100" dir="science" file="science">
+        <language cmd="gcc -o science science.c -lm -static -static -static -static" time="10" file="science.c"/>
+        <language cmd="g++ -o science science.cpp -lm -static -static -static -static" time="10" file="science.cpp"/>
+        <language cmd="fpc science.pas" time="10" file="science.pas"/>
+    </source>
+    <task output="science.out" checker="fulltext" time="10" input="science.in">
+        <subtask score="10">
+            <point out="science1.out" in="science1.in" time="2.5" mem="128"/>
+        </subtask>
+        <subtask score="10">
+            <point out="science2.out" in="science2.in" time="2.5" mem="128"/>
+        </subtask>
+        <subtask score="10">
+            <point out="science3.out" in="science3.in" time="2.5" mem="128"/>
+        </subtask>
+        <subtask score="10">
+            <point out="science4.out" in="science4.in" time="2.5" mem="128"/>
+        </subtask>
+        <subtask score="10">
+            <point out="science5.out" in="science5.in" time="2.5" mem="128"/>
+        </subtask>
+        <subtask score="10">
+            <point out="science6.out" in="science6.in" time="2.5" mem="128"/>
+        </subtask>
+        <subtask score="10">
+            <point out="science7.out" in="science7.in" time="2.5" mem="128"/>
+        </subtask>
+        <subtask score="10">
+            <point out="science8.out" in="science8.in" time="2.5" mem="128"/>
+        </subtask>
+        <subtask score="10">
+            <point out="science9.out" in="science9.in" time="2.5" mem="128"/>
+        </subtask>
+        <subtask score="10">
+            <point out="science10.out" in="science10.in" time="2.5" mem="128"/>
+        </subtask>
+    </task>
+</problem>

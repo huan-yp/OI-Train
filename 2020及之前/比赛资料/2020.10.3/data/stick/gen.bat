@@ -1,0 +1,10 @@
+gen 4 9 a > data1.in
+gen 4 9 b > data2.in
+gen 1000 9 c > data3.in
+gen 1000 9 d > data4.in
+gen 100000 9 e > data5.in
+gen 100000 9 f > data6.in
+gen 1000000000 100 g > data7.in
+gen 1000000000 100 h > data8.in
+gen 1000000000000000000 100 i > data9.in
+gen 1000000000000000000 100 j > data10.in
